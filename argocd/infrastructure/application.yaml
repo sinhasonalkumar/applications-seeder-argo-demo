@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     path: ./
-    repoURL: https://github.com/sinhasonalkumar/base-app-networking-k8s-state-argo-demo.git
+    repoURL: https://github.com/sinhasonalkumar/onboarded-base-app-networking-stack-argo-demo.git
     targetRevision: main
     directory:
       recurse: true
