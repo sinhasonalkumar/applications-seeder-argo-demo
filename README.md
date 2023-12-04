@@ -195,6 +195,56 @@ argocd app sync dev-sp-micro-service-argo-demo
 ---
 
 
+---
+
+k get svc istio-ingressgateway -n istio-system
+
+### get external IP and update to etc hosts file
+
+vi /etc/hosts
+
+192.168.59.143 api.mycompany.com
+192.168.59.143 mgmt-api.mycompany.com
+
+192.168.59.143 api-dev.mycompany.com
+192.168.59.143 mgmt-api-dev.mycompany.com
+
+192.168.59.143 api-qa.mycompany.com
+192.168.59.143 mgmt-api-qa.mycompany.com
+
+192.168.59.143 api-stage.mycompany.com
+192.168.59.143 mgmt-api-stage.mycompany.com
+
+192.168.59.143 api-preview.mycompany.com
+192.168.59.143 mgmt-api-preview.mycompany.com
+
+
+
+http://api-dev.mycompany.com/ds/v1/products
+http://api-dev.mycompany.com/ds/v1/canary
+http://mgmt-api-dev.mycompany.com/ds/actuator/health
+http://mgmt-api-dev.mycompany.com/ds/api-docs/v1/swagger-ui/index.html
+
+
+http://api-qa.mycompany.com/ds/v1/products
+http://api-qa.mycompany.com/ds/v1/canary
+http://mgmt-api-qa.mycompany.com/ds/actuator/health
+http://mgmt-api-qa.mycompany.com/ds/api-docs/v1/swagger-ui/index.html
+
+
+http://api-stage.mycompany.com/ds/v1/products
+http://api-stage.mycompany.com/ds/v1/canary
+http://mgmt-api-stage.mycompany.com/ds/actuator/health
+http://mgmt-api-stage.mycompany.com/ds/api-docs/v1/swagger-ui/index.html
+
+
+http://api.mycompany.com/ds/v1/products
+http://api.mycompany.com/ds/v1/canary
+http://mgmt-api.mycompany.com/ds/actuator/health
+http://mgmt-api.mycompany.com/ds/api-docs/v1/swagger-ui/index.html
+
+
+
 
 
 
