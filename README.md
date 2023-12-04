@@ -262,6 +262,35 @@ http://mgmt-api.mycompany.com/ds/api-docs/v1/swagger-ui/index.html
 
 
 
+----
+If One K8s Cluster per BU
+
+Repo Across OU
+ - helm-charts-argo-demo
+ - base-app-networking-helm-repository-argo-demo
+ - micro-service-helm-repository-argo-demo
+
+Repo Per K8s Cluster
+ - applications-seeder-argo-demo
+ - onboarded-base-app-networking-stack-argo-demo
+ - base-app-networking-k8s-state-argo-demo
+ - onboarded-applications-argo-demo
+
+Repo Per BU
+ - applications-k8s-state-argo-demo
+
+Repo Per MicroService
+ - sp-micro-service-argo-demo
+ - sp-micro-service-config-argo-demo
+
+
+
+
+
+
+
+
+
 
 
 
