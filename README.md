@@ -221,27 +221,45 @@ vi /etc/hosts
 
 
 http://api-dev.mycompany.com/ds/v1/products
+
 http://api-dev.mycompany.com/ds/v1/canary
+
 http://mgmt-api-dev.mycompany.com/ds/actuator/health
+
 http://mgmt-api-dev.mycompany.com/ds/api-docs/v1/swagger-ui/index.html
 
 
+---
+
 http://api-qa.mycompany.com/ds/v1/products
+
 http://api-qa.mycompany.com/ds/v1/canary
+
 http://mgmt-api-qa.mycompany.com/ds/actuator/health
+
 http://mgmt-api-qa.mycompany.com/ds/api-docs/v1/swagger-ui/index.html
 
 
+---
+
 http://api-stage.mycompany.com/ds/v1/products
+
 http://api-stage.mycompany.com/ds/v1/canary
+
 http://mgmt-api-stage.mycompany.com/ds/actuator/health
+
 http://mgmt-api-stage.mycompany.com/ds/api-docs/v1/swagger-ui/index.html
 
+----
 
 http://api.mycompany.com/ds/v1/products
+
 http://api.mycompany.com/ds/v1/canary
+
 http://mgmt-api.mycompany.com/ds/actuator/health
+
 http://mgmt-api.mycompany.com/ds/api-docs/v1/swagger-ui/index.html
+
 
 
 
